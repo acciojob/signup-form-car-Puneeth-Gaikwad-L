@@ -9,7 +9,7 @@
 <body>
 
 	
-    <form method="post">
+   <form method="post">
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name" placeholder="Name" required>
 
@@ -20,11 +20,11 @@
 
         <br>
 
-        <label for="gender_m">Gender:</label><br>
-        <input type="radio" id="gender_m" name="male" value="gender_m" required>
-        <label for="gender_m">Male</label><br>
-        <input type="radio" id="gender_f" name="female" value="gender_f" required>
-        <label for="gender_f">female</label>
+        <label for="gender_m">Gender</label><br>
+        <input type="radio" id="gender_m" name="gender" value="male" required>
+        <label for="gender_m">Male</label>
+        <input type="radio" id="gender_f" name="gender" value="female" required>
+        <label for="gender_f">Female</label>
 
 
         <br>
@@ -39,8 +39,8 @@
 
         <br>
 
-        <label for="Age">Age:</label><br>
-        <input type="number" name="Age" id="Age" placeholder="Age" required>
+        <label for="age">Age:</label><br>
+        <input type="number" name="age" id="age" placeholder="Age" required>
 
         <br>
 
@@ -61,6 +61,10 @@
 
         <label for="tos">I agree to the TOS</label>
         <input type="checkbox" name="tos" id="tos">
+
+        <br>
+
+        <button type="submit">submit</button>
 
     </form>
 	<!-- the entire body must be written by student -->
